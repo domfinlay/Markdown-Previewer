@@ -1,0 +1,58 @@
+:root {
+  --backColor: #f9fbe7;
+  --backColor2: #f0edd4;
+  --boldColor: #eccdb4;
+  --highlightColor: #fea1a1;
+}
+
+body {
+  background-color: var(--backColor);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#editor-container {
+  background-color: var(--boldColor);
+  border: 1px solid black;
+  text-align: center;
+  width: 600px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+#editor {
+  border: 0;
+  border-top: 1px solid black;
+  background-color: var(--backColor2);
+  height: 200px;
+  width: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  padding: 10px;
+}
+
+#preview-container {
+  background-color: var(--backColor2);
+  width: 800px;
+  min-height: 300px;
+  max-height: auto;
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+}
+
+#preview-title {
+  background-color: var(--boldColor);
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+#preview {
+  padding: 20px;
+}
+
+/* #preview img {
+  max-width: 600px;
+} */
